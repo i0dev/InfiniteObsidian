@@ -1,0 +1,15 @@
+name: InfiniteObsidian
+version: ${project.version}
+main: com.i0dev.InfiniteObsidian
+authors: [ i01 ]
+description: Infinite Obsidian
+website: i0dev.com
+depend: [ Vault ]
+commands:
+  infiniteObsidian:
+    description: Main Command
+    permission: infiniteobsidian.give
+permissions:
+  infiniteobsidian.give:
+    description: Give a InfiniteObsidian block
+    default: op

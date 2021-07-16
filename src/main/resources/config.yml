@@ -1,0 +1,19 @@
+item:
+  displayName: "&c&lInfinite Obsidian"
+  lore:
+    - "&f"
+    - "&7Place this block to never run out of obsidian"
+    - "&7It will charge &a${price} &7each time its placed"
+  type: BEDROCK
+  glow: true
+pricePer: 100
+block: OBSIDIAN
+messageEveryXSeconds: 45
+message:
+  cantAfford: "&cYou do not have a sufficient balance to place an Infinite Obsidian block"
+  charged: "&7You we're charged &a${price} &7for your recent Infinite Obsidian placements in the last {sec} seconds."
+  noPermission: "&cYou do not have permission to give a gen bucket."
+  usage: "&cUsage: &f/InfiniteObsidian give <user> [amount]"
+  cantFind: "&cCould not find target"
+  invalidNumber: "&cInvalid number"
+  youGave: "&7You gave &c{player} &fx{amt} &7Infinite Obsidian Blocks."
