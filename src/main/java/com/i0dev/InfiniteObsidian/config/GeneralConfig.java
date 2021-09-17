@@ -29,6 +29,7 @@ public class GeneralConfig extends AbstractConfiguration {
     String infiniteBlockMaterial = "OBSIDIAN";
     long messageEveryXSeconds = 45;
 
+    boolean disablePlacingInSystemFactions = true;
 
 
     public GeneralConfig(Heart heart, String path) {

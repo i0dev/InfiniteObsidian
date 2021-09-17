@@ -3,6 +3,7 @@ package com.i0dev.InfiniteObsidian.handlers;
 import com.i0dev.InfiniteObsidian.Heart;
 import com.i0dev.InfiniteObsidian.config.GeneralConfig;
 import com.i0dev.InfiniteObsidian.config.MessageConfig;
+import com.i0dev.InfiniteObsidian.hooks.MCoreFactionsHook;
 import com.i0dev.InfiniteObsidian.managers.MessageManager;
 import com.i0dev.InfiniteObsidian.templates.AbstractListener;
 import de.tr7zw.changeme.nbtapi.NBTItem;
@@ -48,9 +49,13 @@ public class InfiniteObsidianHandler extends AbstractListener {
         if (e.isCancelled()) return;
         ItemStack hand = e.getPlayer().getItemInHand();
         if (hand == null || Material.AIR.equals(hand.getType())) return;
-
         NBTItem NBTHand = new NBTItem(hand);
         if (!NBTHand.getBoolean("infiniteObsidian")) return;
+        if (cnf.isDisablePlacingInSystemFactions() && MCoreFactionsHook.isSystemFaction(e.getBlock().getLocation())) {
+            msgManager.msg(e.getPlayer(), msg.getCantPlaceInSystemFac());
+            e.setCancelled(true);
+            return;
+        }
         OfflinePlayer oPlayer = Bukkit.getOfflinePlayer(e.getPlayer().getUniqueId());
         Economy economy = getHeart().getEconomy();
         if (economy.getBalance(oPlayer) < cnf.getPricePer()) {
