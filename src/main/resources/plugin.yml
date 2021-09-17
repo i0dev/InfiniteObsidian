@@ -1,0 +1,25 @@
+name: ${project.build.finalName}
+main: com.i0dev.InfiniteObsidian.Heart
+version: ${project.version}
+author: i01
+description: Ability to never run out of obsidian!
+website: ${project.url}
+softdepend:
+  - Factions
+  - PlaceHolderAPI
+depend:
+  - NBTAPI
+  - Vault
+commands:
+  infiniteObsidian:
+    description: Main command
+    aliases:
+      - infObby
+      - obby
+permissions:
+  infiniteObsidian.give:
+    description: Give Infinite Obsidian
+    default: op
+  infiniteObsidian.reoad:
+    description: Reload config
+    default: op
