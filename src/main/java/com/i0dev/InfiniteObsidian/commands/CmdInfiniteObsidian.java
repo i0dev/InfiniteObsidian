@@ -63,7 +63,7 @@ public class CmdInfiniteObsidian extends AbstractCommand {
             return;
         }
         if (args[0].equalsIgnoreCase("give")) {
-            if (!sender.hasPermission("wands.give")) {
+            if (!sender.hasPermission("infiniteObsidian.give")) {
                 msgManager.msg(sender, msg.getNoPermission());
                 return;
             }
