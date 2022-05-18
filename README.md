@@ -21,7 +21,7 @@ This plugin allows players to obtain an Infinite Obsidian block that will always
 
 *Values in **<>** are required, values in **[]** are optional*
 
-- ``/infiniteObsidian give <player> [amount]`` - ``gives that player infinite obsidian blocks``
+- ``/infiniteObsidian give <player> [amount]`` - ``gives that player infinite obsidian blocks.``
 - ``/infiniteObsidian help`` - ``sends the help page.``
 - ``/infiniteObsidian reload`` - ``reloads the plugin.``
 - ``/infiniteObsidian version`` - ``sends version info.``
