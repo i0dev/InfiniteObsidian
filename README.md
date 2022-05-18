@@ -10,6 +10,7 @@ This plugin allows players to obtain an Infinite Obsidian block that will always
 
 - Vault
 - NBT-API
+- Factions Plugin (MCore or UUID) (Make a ticket to request more forks)
 
 ### Works With
 
