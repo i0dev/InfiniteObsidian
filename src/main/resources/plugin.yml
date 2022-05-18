@@ -1,0 +1,28 @@
+name: InfiniteObsidian
+main: com.i0dev.plugin.infiniteobsidian.InfiniteObsidianPlugin
+version: 2.0.0
+author: i01
+description: Adds a block of obsidian that always stays at a stack
+website: www.i0dev.com
+softdepend:
+  - PlaceHolderAPI
+depend:
+  - Vault
+commands:
+  infiniteobsidian:
+    aliases:
+      - infiniteobby
+      - infobby
+    description: The main infinite obsidian command
+    usage: /potfill [help/reload/version/give]
+
+permissions:
+  infiniteobsidian.reload:
+    description: Use the /infiniteobsidian reload command.
+    default: op
+  infiniteobsidian.use:
+    description: Use infinite obsidian blocks.
+    default: not op
+  infiniteobsidian.give:
+    description: Use the /infiniteobsidian give command.
+    default: op
