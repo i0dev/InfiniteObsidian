@@ -6,8 +6,10 @@ description: Adds a block of obsidian that always stays at a stack
 website: www.i0dev.com
 softdepend:
   - PlaceHolderAPI
+  - Factions
 depend:
   - Vault
+  - NBTAPI
 commands:
   infiniteobsidian:
     aliases:
