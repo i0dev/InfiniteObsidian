@@ -1,6 +1,6 @@
 # InfiniteObsidian Plugin
 
-This plugin allows players to obtain an Infinite Obsidian block that will always replenish when placed for a charge.
+This plugin allows you to place obsidian without the stack running out, costing money every time its placed.
 
 - Configurable prices
 - Configurable items
