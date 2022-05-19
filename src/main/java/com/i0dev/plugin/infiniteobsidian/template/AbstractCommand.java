@@ -89,8 +89,7 @@ public abstract class AbstractCommand implements CommandExecutor, TabExecutor {
             return;
         }
         MsgUtil.msg(sender, msg().getString("reloadedConfig"));
-        plugin.getServer().getPluginManager().disablePlugin(plugin);
-        plugin.getServer().getPluginManager().enablePlugin(plugin);
+        plugin.reloadConfig();
     }
 
     protected void help(CommandSender sender, String[] args) {

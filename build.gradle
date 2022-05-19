@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.i0dev.plugin.infiniteobsidian'
-version '2.0.0'
+version '2.0.1'
 
 repositories {
     maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
