@@ -1,6 +1,6 @@
 name: InfiniteObsidian
 main: com.i0dev.plugin.infiniteobsidian.InfiniteObsidianPlugin
-version: 2.0.1
+version: 2.0.2
 author: i01
 description: This plugin allows you to place obsidian without the stack running out, costing money every time its placed.
 website: www.i0dev.com

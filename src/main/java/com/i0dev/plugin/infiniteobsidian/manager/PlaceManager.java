@@ -9,7 +9,7 @@ import com.i0dev.plugin.infiniteobsidian.object.QueuedMessage;
 import com.i0dev.plugin.infiniteobsidian.template.AbstractManager;
 import com.i0dev.plugin.infiniteobsidian.utility.MsgUtil;
 import com.i0dev.plugin.infiniteobsidian.utility.Utility;
-import de.tr7zw.changeme.nbtapi.NBTItem;
+import de.tr7zw.nbtapi.NBTItem;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

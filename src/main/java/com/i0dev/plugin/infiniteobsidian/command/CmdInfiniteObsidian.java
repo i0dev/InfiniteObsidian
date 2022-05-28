@@ -4,7 +4,7 @@ import com.i0dev.plugin.infiniteobsidian.object.Pair;
 import com.i0dev.plugin.infiniteobsidian.template.AbstractCommand;
 import com.i0dev.plugin.infiniteobsidian.utility.MsgUtil;
 import com.i0dev.plugin.infiniteobsidian.utility.Utility;
-import de.tr7zw.changeme.nbtapi.NBTItem;
+import de.tr7zw.nbtapi.NBTItem;
 import lombok.Getter;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
